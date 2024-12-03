@@ -24,9 +24,5 @@ These are my creative writing projects. I am always looking to improve. Let me k
 
 ## Contributing
 
-<<<<<<< HEAD
-For more information, please contact Andrew Yon 4th through his Patreon Page.
-=======
 For more information, please contact Andrew Yon 4th through his Patreon Page. 
-
->>>>>>> f35dfa1ab52c926f527a3f5182db1a14598d9d5b
+www.patreon.com/Sciberius

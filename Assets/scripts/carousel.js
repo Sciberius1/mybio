@@ -20,9 +20,10 @@ function createCarousel(carouselId) {
 
     showSlide(currentSlide);
 
-    // Assuming you have buttons with these IDs for each carousel
+    // Move through the slides in the carousel
     document.querySelector(`#${carouselId} .prev`).addEventListener('click', prevSlide);
     document.querySelector(`#${carouselId} .next`).addEventListener('click', nextSlide);
+
 }
 
 // Initialize carousels for each ID

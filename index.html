@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A Yon 4th</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/mystyles.css" />
+</head>
+
+<main>
+    <header class="header">
+        <h1>A Yon 4th</h1>
+        <img src="./assets/images/not_prudent.jpg" alt="A portrait of Andrew Yon 4th." />
+        <nav>
+            <ul>
+                <li><a href="#artwork">Artwork</a></li>
+                <li><a href="#awards">Awards</a></li>
+                <li><a href="#creative-writing">Creative Writing</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- carousels for displaying highlights goes here -->
+    <body>
+        <content>
+            <div class="text">
+                <h2>Bio</h2>
+                <p>Andrew Yon 4th is a student at Southern New Hampshire University, where he is studying for a Bachelor of Sciences in Cyber-Security. He is also a self-taught artist and has been creating original artwork (woodwork and computer drawings) and stories for over 30 years.</p>
+                <br>
+                <p>He was rejected by Royal Road's AI for a lack of political correctness. He is the author of the Tales of a Miscreant series of books, which are available on this page. He is also the creator of the original AI artwork that is displayed on this website. He is currently working on book four of his series and a plan to put the artwork, story line into HTML encoding or possibly RenPy to create an electronic visual novel.</p>
+            </div>
+            <div class="display">
+                <!-- Artwork goes here.-->
+                <div id="artwork" class="carousel">
+                    <div>
+                        <h2>Original AI Artwork</h2>
+                    </div>
+                    <carousel id="artwork" class="carousel-inner">
+                        <p>Some examples of the artwork I have created using Adobe Photoshop and it's correlated AI.</p>
+                        <figure>
+                        <img src="./assets/images/carousel/cartoon_saloon.png"
+                            alt="An image a cowboy and two cowgirls standing near one another in a cartoon-saloon." />
+                        <img src="./assets/images/carousel/continuum_marshall.png"
+                            alt="An old school marshal with glowing eyes in front of an arctic hellhound on a frozen tundra." />
+                        <img src="./assets/images/carousel/crafting_king.png"
+                            alt="A cartoon image of a man wearing a crown with his arms splayed wide in a gesture of greeting." />
+                        <img src="./assets/images/carousel/little_danish_droid.png"
+                            alt="An adolescent built android standing waist deep in a hole in the middle of a river, looking at the camera with overly large eyes." />
+                        <img src="./assets/images/carousel/scout.png"
+                            alt="A cyborg on a reconnaissance mission using a spyglass to survey a valley with a river flowing through it." />
+                        <img src="./assets/images/carousel/troll_picnic.png"
+                            alt="A family of trolls having a picnic in a forest clearing." />
+                        <img src="./assets/images/carousel/turtle_hurdler.png"
+                            alt="An outdated android using a cane in each hand to compete in a race against newer and deadlier androids that have it surrounded." />
+                            <button class="carousel-control prev" onclick="prevSlide()">
+                                &#10094;
+                                </button>
+                                <button class="carousel-control next" onclick="nextSlide()">
+                                &#10095;
+                                </button>
+                            </figure>
+                        </carousel>
+                </div>
+                <!-- Awards go below this line -->
+                <div id="awards" class="carousel">
+                    <div>
+                        <h2>Awards and Honorable Mentions</h2>
+                    </div>
+                    <carousel id="awards" class="carousel-inner">
+                        <p>Andrew has been awarded the Honor Roll 8 times and President's List Award 4 times at Southern New Hampshire University for his academic achievements.</p>
+                        <figure>
+                            <img src="./assets/images/carousel/8hr_4pl.png"
+                                alt="An image of the eight Honor Rolls and four President Lists awarded to Andrew." />
+                            <img src="./assets/images/carousel/hr_requirements.png"
+                                alt="An image of the requirements for the Honor Roll Award at SNHU." />
+                            <img src="./assets/images/carousel/pl_winter24.png"
+                                alt="An image of the requirements for the President's List Award at SNHU." />
+                            <button class="carousel-control prev" onclick="prevSlide()">
+                            &#10094;
+                            </button>
+                            <button class="carousel-control next" onclick="nextSlide()">
+                            &#10095;
+                            </button>
+                        </figure>
+                    </carousel>
+                </div>
+                <!-- Creative Writing goes below this line -->
+                <div id="creative-writing" class="carousel">
+                    <div>
+                        <h2>Creative Writing</h2>
+                    </div>
+                    <carousel id="creative-writing" class="carousel-inner">
+                        <p>PDF versions of the books available. Most are still works in progress with a plan to convert them into animated visual novels.</p>
+                        <figure>
+                            <a href="./assets/book_one.pdf">
+                                <img src="./assets/images/carousel/book_one.jpg" alt="Tales of a Miscreant Book One: The Crazy Train." />
+                            </a>
+                            <a href="./assets/book_two.pdf">
+                                <img src="./assets/images/carousel/book_two.jpg"
+                                    alt="Tales of a Miscreant Book Two: The Rock and Roll Years." />
+                            </a>
+                            <a href="./assets/book_three.pdf">
+                                <img src="./assets/images/carousel/book_three.jpg" alt="Tales of a Miscreant Book Three: A Simple Man." />
+                            </a>
+                            <img src="./assets/images/carousel/book_four.jpg"
+                                alt="Tales of a Miscreant Book Four: Rise of the Princes."
+                                onclick="alert('Download currently not available.')" />
+                            <button class="carousel-control prev" onclick="prevSlide()">
+                                &#10094;
+                            </button>
+                            <button class="carousel-control next" onclick="nextSlide()">
+                                &#10095;
+                            </button>
+                        </figure>
+                    </carousel>
+            </div>
+            </div>
+        </content>
+        <script src="./assets/scripts/carousel.js"></script>
+    </body>
+    <footer>
+        <p>&copy; 2021 Andrew Yon 4th</p><p>For more information, please contact Andrew Yon 4th through his<a href="https://www.patreon.com/Sciberius" target="_blank"> Patreon Page.</a></p>
+        <a href="https://www.patreon.com/Sciberius" target="_blank">
+            <img src="./assets/images/patreon_logo.png" alt="Patreon Logo" style="display: block; margin: 0 auto;" />
+        </a>
+    </footer>
+</main>
+
+</html>

@@ -1,0 +1,212 @@
+.body {
+  margin-top: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: aqua;
+  margin: 10 0 0 0;
+  padding: 10 0 0 0;
+  display: flex;
+  font-size: 16px;
+  padding-bottom: 150px;
+}
+
+.header {
+  background-color: blue;
+  background-image: url('../images/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  color: aqua;
+  padding: 10px;
+  font-size: 20px;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 99%;
+  z-index: 1000;
+  height: 200px;
+}
+
+.header img {
+  display: block;
+  position: absolute;
+  width: 150px;
+  max-height: 150px;
+}
+
+.header nav h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    color: aqua;
+    text-align: center;
+}
+
+.header nav ul {
+  list-style-type: disc;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+.menubar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 10vw;
+  background-color: darkblue;
+}
+
+content {
+  text-align: center;
+  color: aquamarine;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+
+.text {
+  margin: 10px;
+  padding: 10px;
+  color: aquamarine;
+  background-color: darkblue;
+  box-shadow: 0 0 10px 5px orange;
+}
+
+.text h2 {
+  font-size: 30px;
+  text-align: center;
+  color: lightgreen;
+}
+
+.text p {
+  font-size: 16px;
+}
+
+
+#artwork {
+  content: "Original AI Artwork";
+}
+
+#awards {
+  content: "Awards and Honorable Mentions";
+}
+
+#creative-writing {
+  content: "Creative Writing";
+}
+
+.display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.carousel {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px;
+  flex: 1 1 30%;
+  max-width: 375px;
+  height: 600px;
+  box-sizing: border-box;
+  background-color: darkblue;
+}
+
+.carousel h2 {
+  position: relative;
+  min-width: 350px;
+  text-align: center;
+  color: aquamarine;
+  padding: 20px;
+}
+
+
+.carousel p {
+  position: relative;
+  bottom: 0%;
+  max-width: 350px;
+  text-align: center;
+  margin: 10px;
+  color: aquamarine;
+  background-color: darkblue;
+  padding: 20px;
+  box-shadow: 0 0 10px 5px red;
+}
+
+.carousel-inner {
+  position: relative;
+  display: flex;
+  width: 350px;
+  height: 500px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-inner img {
+  display: flex;
+  max-height: 300px;
+  max-width: 250px;
+  border: 1px solid whitesmoke;
+  padding: 5px;
+  margin: 50px;
+  justify-content: center;
+  box-shadow: 0 0 10px 5px aqua;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  max-width: 360px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: 1 whitesmoke;
+  padding: auto;
+  cursor: grab;
+  box-shadow: 0 0 10px 5px aqua;
+}
+
+.carousel-control.prev {
+  left: 2%;
+}
+
+.carousel-control.next {
+  right: 2%;
+}
+
+.carousel-inner figure {
+position: relative;
+display: flex;
+}
+
+@media (max-width: 400px) {
+  .carousel {
+    flex: 1 1 100%;
+  }
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: aqua;
+  text-align: center;
+  padding: 10px;
+}
+
+footer a img {
+  display: block;
+  width: 125px;
+  height: 40px;
+  margin: 10px;
+}
